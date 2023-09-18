@@ -1,8 +1,7 @@
-def increate_value(value:int, by=5):
-    """Increments the value
-       Args:
-         value (int): The value to increment
-    """
-    return value + 5
-
-
+def increase_value(value:int, by_value:int=5) -> int:
+    '''function to increase the value
+        args:
+            value (int): value
+            by_value (int): to increase the value by
+    '''
+    return value + by_value

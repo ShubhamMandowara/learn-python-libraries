@@ -1,4 +1,4 @@
-from pytest_tut.functions import increase_value
+from src.functions import increase_value
 import pytest
 
 def test_increment_value_function_simple():
