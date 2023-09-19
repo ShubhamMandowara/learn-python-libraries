@@ -1,6 +1,6 @@
 create_poetry_env:
 	echo "Creating poetry environment"
-	poetry init 
+	poetry init
 	cat requirements.txt | xargs poetry add
 
 create_format:

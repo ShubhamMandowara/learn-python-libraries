@@ -36,10 +36,10 @@ use `@pytest.fixture`
     @pytest.fixture
     def values():
         return 10
-    
+
     def test_increase(values):
         assert 15 == increase_value(input_value)
-    
+
 
 Can make fixture functions in the file to make them accessible accross all tests
 
@@ -64,7 +64,7 @@ we can give parameters to run tests on many inputs
     @ptytest.mark.parameterize("input", [10,20,30,40])
     def test_increase(input):
         assert input + 5 == increment_value(input)
-    
+
 ## to skip the test
 We can use skip anotation
 @pytest.mask.skip
@@ -76,11 +76,6 @@ we can use pytest.mark.xfail
 # To run tests in parallel
 use
 
-    pytest -n 3 
+    pytest -n 3
 
 To run 3 parallel test at a time
-
-
-
-
-

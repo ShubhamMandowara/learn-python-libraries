@@ -2,10 +2,10 @@
 - Usage and problem it solves: Its hard to understand the code of any repository so pylint help us to rescue from the problem by checking score of the code before commint
 
 - How to install : pip install pylint
-- Use it on code : 
+- Use it on code :
 
         # without docstring
-        
+
         def function(a, b):
             return a + b
         function()
@@ -16,8 +16,5 @@
             '''funciton to sum the values"""
             return a + b
         function()
-- command to run : 
+- command to run :
  `pylint fileName.py`
-
-
-
